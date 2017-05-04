@@ -1,0 +1,78 @@
+body {
+    background-color: grey;
+    font-family: 'Roboto', sans-serif;
+    margin: 15px;
+}
+
+.brand {
+    font-size: 25px;
+}
+
+.filter {
+    padding: 50px 0;
+}
+
+ul {
+    list-style-type: none;
+    float: right;
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.selected-menu {
+    border-bottom: 1px solid #000;
+}
+
+.grid {
+    height: 100%;
+}
+
+.grid-item {
+    width: 22%;
+    background-color: #fff;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    display: inline-block;
+}
+
+.content {
+    padding: 15px;
+}
+
+.image {
+    height: 100px;
+    background-color: #2f4f4f;
+}
+
+.title {
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.food-tag {
+    display: inline-block;
+    float: right;
+    text-transform: capitalize;
+}
+
+.more-info {
+    padding-top: 20px;
+}
+
+/* For screens with smaller with than 1200px */
+@media (max-width: 1200px) {
+  .grid-item {
+    width: 45%;
+  }
+}
+
+/* For screens with smaller with than 550px */
+@media (max-width: 550px) {
+  .grid-item {
+    width: 95%;
+  }
+}
